@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing PAGE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="navbar">
+                <div class="logo-box">
+                    <img src="logo.png" alt="New Dawn Logo" class="logo-image">
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="search">
+                    <input 
+                    class="srch" 
+                    type="search" id="searchinput"
+                    placeholder="Search tea...">
+                    <button class="btn" id="searchbtn" type="button">
+                    Search</button>
+                    <div id="searchsuggest"></div>
+            </div>
+            </div>
+        <div class="main" id="home">
+            <div class="content">
+                <div class="hero-text">
+                <h1>Welcome to New Dawn .....</h1>
+                <p class="hero-subtitle">
+                    Wake up to the brew.
+                </p>
+                <h2>Let's Begin</h2>
+                <button class="cn"><a href="#shop">LET'S BEGIN</a></button>
+                </div>
+                <div class="form" id="login">
+                    <h2>LOGIN HERE</h2>
+                    <input type="email" name="email" placeholder="Enter your email">
+                    <input type="password" name="password" placeholder="Enter password">
+                    <button class="btnn"><a href="#">LOGIN</a></button>
+                    <p class="link">Don't have an account..
+                    <br><a href="#">SIGN UP HERE</a></p>
+                    <p class="liw">LOG IN WITH</p>
+
+                    <div class="icon">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        <section id="about" class="about-container">
+        <div class="about-section">
+            <h2>About New Dawn</h2>
+            <p>
+                Welcome to NEW DAWN!!!. 
+                We are passionate about bringing you the finest, highest-quality teas from sustainable gardens around the world.
+                For us, tea is more than just a drink—it is a daily ritual and a moment of calm in a busy day. 
+                That is why we focus on whole-leaf ingredients, authentic flavors, and ethical sourcing.
+                Whether you are looking for a morning energy boost or a soothing evening blend, we are here to help you find your perfect cup.
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="tea.jfif" alt="Brewed for you">
+            <p class="image-caption">Brewed for you</p>
+        </div>
+        </section>
+        <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="service-container">
+
+        <div class="service-box">
+            <h3>Premium Tea</h3>
+            <p>
+                Enjoy high-quality tea made from carefully selected tea leaves.
+            </p>
+        </div>
+        <div class="service-box">
+            <h3>Fresh Flavours</h3>
+            <p>
+                Explore delicious flavours suitable for every mood and moment.
+            </p>
+        </div>
+        <div class="service-box">
+            <h3>Quality Products</h3>
+            <p>
+                We focus on freshness, quality, and customer satisfaction.
+            </p>
+        </div>
+    </div>
+    </section>
+    <section id="shop" class="shop-section">
+    <h2>Shop Our Products</h2>
+    <p>Choose your favourite tea and enjoy the freshness.</p>
+    <div class="shop-container">
+        <div class="product-box">
+            <img src="gt.jfif" alt="Green Tea">
+            <h3>Green Tea</h3>
+            <p>Fresh and healthy green tea.</p>
+            <h4>₹199</h4>
+            <button class="shop-btn" type="button" 
+            onclick="window.location.href='#login'">Add to Cart</button>
+        </div>
+        <div class="product-box">
+            <img src="bt.jfif" alt="Black Tea">
+            <h3>Black Tea</h3>
+            <p>Strong and refreshing black tea.</p>
+            <h4>₹249</h4>
+            <button class="shop-btn" type="button" 
+            onclick="window.location.href='#login'">Add to Cart</button>
+        </div>
+        <div class="product-box">
+            <img src="ht.jfif" alt="Herbal Tea">
+            <h3>Herbal Tea</h3>
+            <p>Natural herbal tea for relaxation.</p>
+            <h4>₹299</h4>
+            <button class="shop-btn" type="button" 
+            onclick="window.location.href='#login'">Add to Cart</button>
+        </div>
+    </div>
+</section>
+    <footer class="footer" id="contact">
+        <h3>New Dawn</h3>
+        <p>Email: contact@newdawn.com</p>
+        <p>Phone : +91 98765 43210</p>
+        <div class="footer-links">
+        <a href="#" aria-label="Facebook">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#" aria-label="Instagram">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#" aria-label="Twitter">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        </div>
+        <p class="copyright">
+        © 2026 New Dawn. All rights reserved.
+    </p>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
